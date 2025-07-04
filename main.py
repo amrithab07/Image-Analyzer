@@ -34,4 +34,4 @@ if image_file:
         temperature=0.0,
     )
 
-    st.markdown(response.choices[0].messsage.content)
+    st.markdown(response.choices[0].message.content)

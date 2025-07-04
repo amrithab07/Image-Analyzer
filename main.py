@@ -6,7 +6,7 @@ from openai import OpenAI
 
 
 load_dotenv()
-key=os.getenv('OPENAI_API_KEY')
+key='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'
 MODEL='gpt-3.5-turbo'
 client=OpenAI(api_key=key)
 
